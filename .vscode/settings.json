@@ -13,5 +13,6 @@
     ],
     "files.associations": {
         "thread": "cpp"
-    },
+   },
+   "cmake.sourceDirectory": "F:/New/git/lua-language-server/3rd/EmmyLuaCodeStyle",
 }

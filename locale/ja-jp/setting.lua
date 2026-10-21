@@ -375,6 +375,8 @@ config.misc.parameters                   =
 'VSCode で言語サーバーを起動するときの[コマンドライン引数](https://github.com/LuaLS/lua-telemetry-server/tree/master/method)。'
 config.misc.executablePath               =
 'VSCodeでの実行可能ファイルのパスを指定します。'
+config.misc.startQueue                   =
+'nothing to say'
 config.language.fixIndent                =
 '(VSCodeのみ) 誤った自動インデントを修正します。例えば、"function" を含む文字列内で改行したときの不正なインデントなど。'
 config.language.completeAnnotation       =

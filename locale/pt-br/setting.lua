@@ -375,6 +375,8 @@ config.misc.parameters                   =
 '[Parâmetros de linha de comando](https://github.com/LuaLS/lua-telemetry-server/tree/master/method) ao iniciar o serviço de linguagem no VSCode.'
 config.misc.executablePath               =
 'Especifica o caminho do executável no VSCode.'
+config.misc.startQueue                   =
+'nothing to say'
 config.language.fixIndent                =
 '(Somente VSCode) Corrige indentação automática incorreta, como quebras de linha dentro de uma string contendo a palavra "function".'
 config.language.completeAnnotation       =

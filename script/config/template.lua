@@ -423,6 +423,9 @@ local template = {
                                             >> {},
     ['Lua.misc.parameters']                 = Type.Array(Type.String),
     ['Lua.misc.executablePath']             = Type.String,
+    ['Lua.misc.startQueue']                 = Type.Integer >> 0 << {
+                                                1,2,3,4,5,6,10,15,20
+                                            },
     ['Lua.language.fixIndent']              = Type.Boolean >> true,
     ['Lua.language.completeAnnotation']     = Type.Boolean >> true,
     ['Lua.type.castNumberToInteger']        = Type.Boolean >> true,

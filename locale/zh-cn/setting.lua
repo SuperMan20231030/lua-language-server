@@ -374,6 +374,8 @@ config.misc.parameters                   =
 'VSCode中启动语言服务时的[命令行参数](https://luals.github.io/wiki/usage#arguments)。'
 config.misc.executablePath               =
 'VSCode中指定可执行文件路径。'
+config.misc.startQueue                   =
+'VSCode中多个窗口同时启动LSP时的间隔（秒），单个窗口不受影响。'
 config.language.fixIndent                =
 '(仅VSCode) 修复错误的自动缩进，例如在包含单词 "function" 的字符串中换行时出现的错误缩进。'
 config.language.completeAnnotation       =

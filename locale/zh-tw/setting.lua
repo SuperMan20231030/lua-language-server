@@ -374,6 +374,8 @@ config.misc.parameters                   =
 'VSCode內啟動語言伺服時的[命令列參數](https://luals.github.io/wiki/usage#arguments)。'
 config.misc.executablePath               =
 '指定VSCode內的可執行文件'
+config.misc.startQueue                   =
+'nothing to say'
 config.language.fixIndent                =
 '（僅限VSCode）修復自動縮排錯誤，例如在有包含 "function" 的字串中換行時出現的錯誤縮排。'
 config.language.completeAnnotation       =

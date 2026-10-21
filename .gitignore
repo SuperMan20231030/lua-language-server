@@ -7,3 +7,7 @@
 !/meta/whimsical
 /bin*
 /temp
+
+/3rd
+/script
+/.vscode
