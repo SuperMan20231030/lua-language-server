@@ -45,6 +45,7 @@ local function getEnum(temp)
 end
 
 local function getEnumDesc(name, temp)
+    if name == 'Lua.misc.startQueue' then return end
     -- Array 类型的枚举挂在子单元 sub.enums 上（如 Lua.runtime.nonstandardSymbol）
     local enums = temp.enums or (temp.sub and temp.sub.enums)
     if not enums then
